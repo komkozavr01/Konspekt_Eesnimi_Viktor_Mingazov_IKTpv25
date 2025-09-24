@@ -117,7 +117,7 @@ namespace MinuKonspekt
 
             int arv1 = 0;
             int arv2 = 0;
-            Console.WriteLine("Tere, palun sisesta esimene arv: ");
+            Console.WriteLine("Palun sisesta esimene arv: ");
             arv1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Palun sisesta teine arv: ");
             arv2 = int.Parse(Console.ReadLine());
@@ -154,6 +154,22 @@ namespace MinuKonspekt
             // / jagamine
             // * korrutamine2
 
+            //4 parool, if ja string andmetüüp
+            Console.WriteLine("Programmi edasiseks tööks sisesta palun parool");
+            string password = Console.ReadLine();
+
+            if (password == "shiton")
+            {
+                Console.WriteLine("Parool on õige, aarete leagas avaneb");
+            }
+            else if (password == "shit" || password == "3445")
+            {
+                Console.WriteLine("Parool on sobimatu, palun mingi muu");
+            }
+            else
+            {
+                Console.WriteLine("Parool on vale, proovi uuesti");
+            }
         }
     }
 }
