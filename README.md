@@ -1,0 +1,2 @@
+# Konspekt_Eesnimi_Viktor_Mingazov_IKTpv25
+minu konspekt
